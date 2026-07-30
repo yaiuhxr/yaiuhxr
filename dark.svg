@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-gradient-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A101F"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0A101F"/>
+    </linearGradient>
+
+    <!-- Glowing Cyan/Purple Text Gradient -->
+    <linearGradient id="title-gradient-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- Accent Border Gradient -->
+    <linearGradient id="border-gradient-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Ambient Glow Orbs -->
+    <radialGradient id="glow-cyan-dark" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-purple-dark" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid-pattern-dark" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="40" cy="40" r="1.5" fill="#22D3EE" fill-opacity="0.3"/>
+    </pattern>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="card-bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <style>
+      .title-text { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif; font-weight: 800; font-size: 46px; fill: url(#title-gradient-dark); }
+      .subtitle-text { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif; font-weight: 600; font-size: 20px; fill: #94A3B8; letter-spacing: 2px; }
+      .tagline-text { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif; font-weight: 400; font-size: 16px; fill: #64748B; }
+      .badge-text { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif; font-weight: 600; font-size: 13px; fill: #E2E8F0; }
+      .code-symbol { font-family: 'Fira Code', monospace; font-weight: 700; fill: #22D3EE; }
+    </style>
+  </defs>
+
+  <!-- Base Rectangle -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-gradient-dark)"/>
+
+  <!-- Grid Overlay -->
+  <rect width="1200" height="320" rx="16" fill="url(#grid-pattern-dark)"/>
+
+  <!-- Ambient Glow Orbs -->
+  <rect width="1200" height="320" rx="16" fill="url(#glow-cyan-dark)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#glow-purple-dark)"/>
+
+  <!-- Outer Border -->
+  <rect x="2" y="2" width="1196" height="316" rx="14" fill="none" stroke="url(#border-gradient-dark)" stroke-width="2"/>
+
+  <!-- Decorative Corner Accents -->
+  <path d="M 30 10 L 10 10 L 10 30" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 1170 10 L 1190 10 L 1190 30" fill="none" stroke="#A78BFA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 30 310 L 10 310 L 10 290" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 1170 310 L 1190 310 L 1190 290" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Content Container -->
+  <g transform="translate(60, 50)">
+    <!-- Greeting Line -->
+    <text x="0" y="30" class="subtitle-text">
+      <tspan class="code-symbol">&lt;</tspan>HELLO WORLD, I'M<tspan class="code-symbol"> /&gt;</tspan>
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="85" class="title-text">Yadnesh Gawali</text>
+
+    <!-- Subtitle / Profession -->
+    <text x="0" y="125" class="subtitle-text" style="fill: #22D3EE;">
+      ARTIFICIAL INTELLIGENCE &amp; MACHINE LEARNING STUDENT
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="155" class="tagline-text">
+      Building Intelligent Systems • ML Pipelines • Scalable Automation
+    </text>
+
+    <!-- Badges Row -->
+    <g transform="translate(0, 185)">
+      <!-- Badge 1: Machine Learning -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="36" rx="8" fill="url(#card-bg-dark)" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.5"/>
+        <circle cx="22" cy="18" r="6" fill="#22D3EE"/>
+        <text x="36" y="23" class="badge-text">Machine Learning</text>
+      </g>
+
+      <!-- Badge 2: Deep Learning -->
+      <g transform="translate(195, 0)">
+        <rect width="165" height="36" rx="8" fill="url(#card-bg-dark)" stroke="#A78BFA" stroke-opacity="0.4" stroke-width="1.5"/>
+        <circle cx="22" cy="18" r="6" fill="#A78BFA"/>
+        <text x="36" y="23" class="badge-text">Deep Learning</text>
+      </g>
+
+      <!-- Badge 3: Python & DSA -->
+      <g transform="translate(375, 0)">
+        <rect width="160" height="36" rx="8" fill="url(#card-bg-dark)" stroke="#10B981" stroke-opacity="0.4" stroke-width="1.5"/>
+        <circle cx="22" cy="18" r="6" fill="#10B981"/>
+        <text x="36" y="23" class="badge-text">Python &amp; DSA</text>
+      </g>
+
+      <!-- Badge 4: MLOps -->
+      <g transform="translate(550, 0)">
+        <rect width="170" height="36" rx="8" fill="url(#card-bg-dark)" stroke="#F43F5E" stroke-opacity="0.4" stroke-width="1.5"/>
+        <circle cx="22" cy="18" r="6" fill="#F43F5E"/>
+        <text x="36" y="23" class="badge-text">Intelligent Automation</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Neural Network Vector Decorative Graphic on Right Side -->
+  <g transform="translate(920, 60)" opacity="0.85">
+    <!-- Connections -->
+    <line x1="40" y1="50" x2="110" y2="30" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="40" y1="50" x2="110" y2="100" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="40" y1="50" x2="110" y2="170" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.5"/>
+
+    <line x1="40" y1="120" x2="110" y2="30" stroke="#A78BFA" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="40" y1="120" x2="110" y2="100" stroke="#A78BFA" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="40" y1="120" x2="110" y2="170" stroke="#A78BFA" stroke-width="1.5" stroke-opacity="0.5"/>
+
+    <line x1="40" y1="190" x2="110" y2="100" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.5"/>
+    <line x1="40" y1="190" x2="110" y2="170" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.5"/>
+
+    <line x1="110" y1="30" x2="180" y2="80" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.7"/>
+    <line x1="110" y1="100" x2="180" y2="80" stroke="#A78BFA" stroke-width="1.5" stroke-opacity="0.7"/>
+    <line x1="110" y1="100" x2="180" y2="140" stroke="#A78BFA" stroke-width="1.5" stroke-opacity="0.7"/>
+    <line x1="110" y1="170" x2="180" y2="140" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.7"/>
+
+    <!-- Nodes Layer 1 -->
+    <circle cx="40" cy="50" r="8" fill="#0A101F" stroke="#22D3EE" stroke-width="2"/>
+    <circle cx="40" cy="120" r="8" fill="#0A101F" stroke="#A78BFA" stroke-width="2"/>
+    <circle cx="40" cy="190" r="8" fill="#0A101F" stroke="#10B981" stroke-width="2"/>
+
+    <!-- Nodes Layer 2 -->
+    <circle cx="110" cy="30" r="9" fill="#22D3EE"/>
+    <circle cx="110" cy="100" r="9" fill="#A78BFA"/>
+    <circle cx="110" cy="170" r="9" fill="#10B981"/>
+
+    <!-- Output Nodes -->
+    <circle cx="180" cy="80" r="10" fill="#0A101F" stroke="#22D3EE" stroke-width="3"/>
+    <circle cx="180" cy="140" r="10" fill="#0A101F" stroke="#A78BFA" stroke-width="3"/>
+  </g>
+</svg>
