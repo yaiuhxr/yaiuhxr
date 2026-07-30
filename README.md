@@ -2,9 +2,9 @@
 <!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img alt="Yadnesh Gawali" src="dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yaiuhxr/yaiuhxr/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yaiuhxr/yaiuhxr/main/light.svg">
+  <img alt="Yadnesh Gawali" src="https://raw.githubusercontent.com/yaiuhxr/yaiuhxr/main/dark.svg">
 </picture>
 
 <!-- ===== GITHUB STATS ===== -->
