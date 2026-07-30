@@ -7,9 +7,18 @@
   <img alt="Yadnesh Gawali" src="https://raw.githubusercontent.com/yaiuhxr/yaiuhxr/main/dark.svg">
 </picture>
 
-<!-- ===== GITHUB STATS ===== -->
+<!-- ===== GITHUB STATS & CONTRIBUTIONS ===== -->
 
 <div align="center">
+
+<!-- All-Time Commits & Contributions Badge -->
+<p align="center">
+  <img src="https://img.shields.io/badge/All--Time%20Commits-97%2B-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=0A101F" alt="All-Time Commits" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Total%20Repositories-10%2B-A78BFA?style=for-the-badge&logo=git&logoColor=white&labelColor=0A101F" alt="Total Repositories" />
+</p>
+
+<br/>
 
 <!-- Streak - full width -->
 <picture>
