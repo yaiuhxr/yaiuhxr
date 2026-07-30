@@ -46,6 +46,15 @@
 <!-- ===== END SNAKE ===== -->
 
 <br/>
+<br/>
+
+<!-- ===== FEATURED PROJECTS PANEL ===== -->
+
+<div align="center">
+<img width="100%" src="https://raw.githubusercontent.com/yaiuhxr/yaiuhxr/projects/projects.svg" alt="Projects" />
+</div>
+
+<br/>
 
 <!-- ===== ABOUT ME ===== -->
 
