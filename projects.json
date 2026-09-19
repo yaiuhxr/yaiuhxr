@@ -1,8 +1,30 @@
 [
   {
-    "name": "Intelligent Automation",
-    "repo": "yaiuhxr/yaiuhxr",
-    "description": "AI & Machine Learning student profile and automation showcase",
-    "tags": ["Python", "Machine Learning", "MLOps"]
+    "name": "AI-Powered-Accounting",
+    "repo": "yaiuhxr/AI-Powered-Accounting",
+    "description": "Automated Bookkeeping & AI Financial Intelligence Engine",
+    "tags": ["TypeScript", "AI / ML", "Automation"],
+    "stars": 1
+  },
+  {
+    "name": "MCP-Server-Scanner",
+    "repo": "yaiuhxr/MCP-Server-Scanner",
+    "description": "Security Scanner & Runtime Protocol Inspector for MCP Servers",
+    "tags": ["JavaScript", "Security", "MCP Protocol"],
+    "stars": 1
+  },
+  {
+    "name": "Bomb-Frontend",
+    "repo": "yaiuhxr/Bomb-Frontend",
+    "description": "High-Performance Interactive Frontend Suite & Dynamic UI",
+    "tags": ["JavaScript", "UI / UX", "CSS3"],
+    "stars": 1
+  },
+  {
+    "name": "PortFolio-Yadnesh",
+    "repo": "yaiuhxr/PortFolio-Yadnesh",
+    "description": "Personal Developer Engineering Portfolio & Showcase",
+    "tags": ["HTML5", "CSS3", "JavaScript", "Netlify"],
+    "stars": 0
   }
 ]

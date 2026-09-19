@@ -1,0 +1,8 @@
+# Temporary scratch directory
+scratch/
+out/
+merged.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

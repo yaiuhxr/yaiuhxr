@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="430" viewBox="0 0 1180 430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Featured Projects - Yadnesh Gawali">
+  <defs>
+    <linearGradient id="pCardGradLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="pBorderCyanLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891B2" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0891B2" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="pBorderPurpleLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#0891B2" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="accentLineLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#0891B2;#059669;#7C3AED" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#0891B2"><animate attributeName="stop-color" values="#0891B2;#059669;#7C3AED;#0891B2" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#059669"><animate attributeName="stop-color" values="#059669;#7C3AED;#0891B2;#059669" dur="10s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="1176" height="426" rx="16" fill="#F8FAFC" stroke="rgba(0,0,0,0.08)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1176" height="42" rx="16" fill="#EDF2F7"/>
+  <line x1="2" y1="44" x2="1178" y2="44" stroke="rgba(0,0,0,0.08)"/>
+
+  <circle cx="28" cy="23" r="5" fill="#ff5f56"/>
+  <circle cx="46" cy="23" r="5" fill="#ffbd2e"/>
+  <circle cx="64" cy="23" r="5" fill="#27c93f"/>
+  <text x="590" y="27" text-anchor="middle" font-size="12" fill="#475569">PROJECTS.MANIFEST // ARCHIVE_STATUS: DEPLOYED</text>
+  <text x="1145" y="27" text-anchor="end" font-size="11" font-weight="700" fill="#059669"><tspan>&#9679;</tspan> 4 ACTIVE</text>
+
+  <text x="36" y="70" font-size="11" letter-spacing="2.5" fill="#0891B2" font-weight="700">FEATURED_REPOSITORIES</text>
+  <line x1="220" y1="66" x2="1144" y2="66" stroke="rgba(0,0,0,0.08)"/>
+
+  <!-- CARD 1 -->
+  <g transform="translate(36, 84)">
+    <rect width="536" height="148" rx="12" fill="url(#pCardGradLight)" stroke="url(#pBorderCyanLight)" stroke-width="1.5"/>
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#0891B2" stroke-width="2"/>
+    <path d="M 520 0 L 536 0 L 536 16" fill="none" stroke="#0891B2" stroke-width="2"/>
+    <rect x="20" y="20" width="32" height="32" rx="8" fill="rgba(8,145,178,0.1)" stroke="#0891B2" stroke-width="1"/>
+    <path d="M 28 36 L 36 28 L 44 36 M 36 28 L 36 44" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="36" font-size="15" font-weight="700" fill="#0F172A">AI-Powered-Accounting</text>
+    <rect x="420" y="20" width="96" height="20" rx="10" fill="rgba(5,150,105,0.15)" stroke="#059669" stroke-width="1"/>
+    <text x="468" y="34" font-size="10" font-weight="700" fill="#059669" text-anchor="middle">ACTIVE CORE</text>
+    
+    <text x="20" y="74" font-size="12" fill="#475569">Automated Bookkeeping &amp; Financial Intelligence Engine</text>
+    <text x="20" y="92" font-size="11" fill="#64748B">Intelligent ledger automation, ML anomaly detection &amp; reporting</text>
+    
+    <rect x="20" y="112" width="85" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="62" y="127" font-size="10" font-weight="600" fill="#0369A1" text-anchor="middle">TypeScript</text>
+    <rect x="113" y="112" width="70" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="148" y="127" font-size="10" font-weight="600" fill="#6D28D9" text-anchor="middle">AI / ML</text>
+    <rect x="191" y="112" width="85" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="233" y="127" font-size="10" font-weight="600" fill="#047857" text-anchor="middle">Automation</text>
+
+    <text x="516" y="127" font-size="11" fill="#475569" text-anchor="end">&#9733; 1 &#160;&#160;&#9881; main</text>
+  </g>
+
+  <!-- CARD 2 -->
+  <g transform="translate(608, 84)">
+    <rect width="536" height="148" rx="12" fill="url(#pCardGradLight)" stroke="url(#pBorderPurpleLight)" stroke-width="1.5"/>
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#7C3AED" stroke-width="2"/>
+    <path d="M 520 0 L 536 0 L 536 16" fill="none" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="20" y="20" width="32" height="32" rx="8" fill="rgba(124,58,237,0.1)" stroke="#7C3AED" stroke-width="1"/>
+    <path d="M 28 32 L 36 40 L 44 28" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="36" font-size="15" font-weight="700" fill="#0F172A">MCP-Server-Scanner</text>
+    <rect x="420" y="20" width="96" height="20" rx="10" fill="rgba(8,145,178,0.15)" stroke="#0891B2" stroke-width="1"/>
+    <text x="468" y="34" font-size="10" font-weight="700" fill="#0891B2" text-anchor="middle">INSPECTOR</text>
+    
+    <text x="20" y="74" font-size="12" fill="#475569">Security Scanner &amp; Runtime Protocol Inspector</text>
+    <text x="20" y="92" font-size="11" fill="#64748B">Model Context Protocol diagnostics, vulnerability audits &amp; probes</text>
+    
+    <rect x="20" y="112" width="85" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="62" y="127" font-size="10" font-weight="600" fill="#B45309" text-anchor="middle">JavaScript</text>
+    <rect x="113" y="112" width="70" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="148" y="127" font-size="10" font-weight="600" fill="#0891B2" text-anchor="middle">Security</text>
+    <rect x="191" y="112" width="95" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="238" y="127" font-size="10" font-weight="600" fill="#6D28D9" text-anchor="middle">MCP Protocol</text>
+
+    <text x="516" y="127" font-size="11" fill="#475569" text-anchor="end">&#9733; 1 &#160;&#160;&#9881; main</text>
+  </g>
+
+  <!-- CARD 3 -->
+  <g transform="translate(36, 248)">
+    <rect width="536" height="148" rx="12" fill="url(#pCardGradLight)" stroke="url(#pBorderPurpleLight)" stroke-width="1.5"/>
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#7C3AED" stroke-width="2"/>
+    <path d="M 520 0 L 536 0 L 536 16" fill="none" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="20" y="20" width="32" height="32" rx="8" fill="rgba(225,29,72,0.1)" stroke="#E11D48" stroke-width="1"/>
+    <circle cx="36" cy="36" r="6" fill="none" stroke="#E11D48" stroke-width="2"/>
+    <text x="64" y="36" font-size="15" font-weight="700" fill="#0F172A">Bomb-Frontend</text>
+    <rect x="420" y="20" width="96" height="20" rx="10" fill="rgba(225,29,72,0.15)" stroke="#E11D48" stroke-width="1"/>
+    <text x="468" y="34" font-size="10" font-weight="700" fill="#E11D48" text-anchor="middle">UI / CLIENT</text>
+    
+    <text x="20" y="74" font-size="12" fill="#475569">High-Performance Interactive Frontend Suite</text>
+    <text x="20" y="92" font-size="11" fill="#64748B">Dynamic client-side experiences, rich animations &amp; responsive UI</text>
+    
+    <rect x="20" y="112" width="85" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="62" y="127" font-size="10" font-weight="600" fill="#B45309" text-anchor="middle">JavaScript</text>
+    <rect x="113" y="112" width="70" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="148" y="127" font-size="10" font-weight="600" fill="#E11D48" text-anchor="middle">UI / UX</text>
+    <rect x="191" y="112" width="85" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="233" y="127" font-size="10" font-weight="600" fill="#0369A1" text-anchor="middle">CSS3 / DOM</text>
+
+    <text x="516" y="127" font-size="11" fill="#475569" text-anchor="end">&#9733; 1 &#160;&#160;&#9881; main</text>
+  </g>
+
+  <!-- CARD 4 -->
+  <g transform="translate(608, 248)">
+    <rect width="536" height="148" rx="12" fill="url(#pCardGradLight)" stroke="url(#pBorderCyanLight)" stroke-width="1.5"/>
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#0891B2" stroke-width="2"/>
+    <path d="M 520 0 L 536 0 L 536 16" fill="none" stroke="#0891B2" stroke-width="2"/>
+    <rect x="20" y="20" width="32" height="32" rx="8" fill="rgba(8,145,178,0.1)" stroke="#0891B2" stroke-width="1"/>
+    <polygon points="36,26 44,40 28,40" fill="none" stroke="#0891B2" stroke-width="2"/>
+    <text x="64" y="36" font-size="15" font-weight="700" fill="#0F172A">PortFolio-Yadnesh</text>
+    <rect x="420" y="20" width="96" height="20" rx="10" fill="rgba(124,58,237,0.15)" stroke="#7C3AED" stroke-width="1"/>
+    <text x="468" y="34" font-size="10" font-weight="700" fill="#7C3AED" text-anchor="middle">SHOWCASE</text>
+    
+    <text x="20" y="74" font-size="12" fill="#475569">Personal Developer Engineering Portfolio</text>
+    <text x="20" y="92" font-size="11" fill="#64748B">Deployed live on Netlify with interactive projects &amp; resume</text>
+    
+    <rect x="20" y="112" width="70" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="55" y="127" font-size="10" font-weight="600" fill="#0891B2" text-anchor="middle">HTML5</text>
+    <rect x="98" y="112" width="70" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="133" y="127" font-size="10" font-weight="600" fill="#7C3AED" text-anchor="middle">CSS3</text>
+    <rect x="176" y="112" width="70" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="211" y="127" font-size="10" font-weight="600" fill="#B45309" text-anchor="middle">JS</text>
+    <rect x="254" y="112" width="80" height="22" rx="6" fill="#E2E8F0"/>
+    <text x="294" y="127" font-size="10" font-weight="600" fill="#059669" text-anchor="middle">Netlify</text>
+
+    <text x="516" y="127" font-size="11" fill="#475569" text-anchor="end">&#9733; 0 &#160;&#160;&#9881; main</text>
+  </g>
+
+  <rect x="2" y="2" width="1176" height="426" rx="16" fill="none" stroke="url(#accentLineLight)" stroke-width="2" opacity="0.65"/>
+</svg>
