@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="430" viewBox="0 0 1180 430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Featured Projects - Yadnesh Gawali">
+  <defs>
+    <linearGradient id="pCardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0A101F" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="pBorderCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="pBorderPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="10s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="pGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="panelClip"><rect x="2" y="2" width="1176" height="426" rx="16"/></clipPath>
+  </defs>
+
+  <!-- Panel Frame -->
+  <rect x="2" y="2" width="1176" height="426" rx="16" fill="#070B16" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1176" height="42" rx="16" fill="#0B1222"/>
+  <line x1="2" y1="44" x2="1178" y2="44" stroke="rgba(255,255,255,0.1)"/>
+
+  <!-- Window controls -->
+  <circle cx="28" cy="23" r="5" fill="#ff5f56"/>
+  <circle cx="46" cy="23" r="5" fill="#ffbd2e"/>
+  <circle cx="64" cy="23" r="5" fill="#27c93f"/>
+  <text x="590" y="27" text-anchor="middle" font-size="12" fill="#94A3B8">PROJECTS.MANIFEST // ARCHIVE_STATUS: DEPLOYED</text>
+  <text x="1145" y="27" text-anchor="end" font-size="11" font-weight="700" fill="#10B981"><tspan>&#9679;</tspan> 4 ACTIVE</text>
+
+  <!-- Section Header -->
+  <text x="36" y="70" font-size="11" letter-spacing="2.5" fill="#22D3EE" font-weight="700">FEATURED_REPOSITORIES</text>
+  <line x1="220" y1="66" x2="1144" y2="66" stroke="rgba(255,255,255,0.1)"/>
+
+  <!-- CARD 1: AI-Powered-Accounting -->
+  <g transform="translate(36, 84)">
+    <rect width="536" height="148" rx="12" fill="url(#pCardGrad)" stroke="url(#pBorderCyan)" stroke-width="1.5"/>
+    <!-- Corner brackets -->
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#22D3EE" stroke-width="2"/>
+    <path d="M 520 0 L 536 0 L 536 16" fill="none" stroke="#22D3EE" stroke-width="2"/>
+    <!-- Icon & Title -->
+    <rect x="20" y="20" width="32" height="32" rx="8" fill="rgba(34,211,238,0.12)" stroke="#22D3EE" stroke-width="1"/>
+    <path d="M 28 36 L 36 28 L 44 36 M 36 28 L 36 44" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="36" font-size="15" font-weight="700" fill="#F8FAFC">AI-Powered-Accounting</text>
+    <rect x="420" y="20" width="96" height="20" rx="10" fill="rgba(16,185,129,0.15)" stroke="#10B981" stroke-width="1"/>
+    <text x="468" y="34" font-size="10" font-weight="700" fill="#10B981" text-anchor="middle">ACTIVE CORE</text>
+    
+    <!-- Description -->
+    <text x="20" y="74" font-size="12" fill="#94A3B8">Automated Bookkeeping &amp; Financial Intelligence Engine</text>
+    <text x="20" y="92" font-size="11" fill="#64748B">Intelligent ledger automation, ML anomaly detection &amp; reporting</text>
+    
+    <!-- Tags -->
+    <rect x="20" y="112" width="85" height="22" rx="6" fill="#1E293B"/>
+    <text x="62" y="127" font-size="10" font-weight="600" fill="#38BDF8" text-anchor="middle">TypeScript</text>
+    <rect x="113" y="112" width="70" height="22" rx="6" fill="#1E293B"/>
+    <text x="148" y="127" font-size="10" font-weight="600" fill="#A78BFA" text-anchor="middle">AI / ML</text>
+    <rect x="191" y="112" width="85" height="22" rx="6" fill="#1E293B"/>
+    <text x="233" y="127" font-size="10" font-weight="600" fill="#10B981" text-anchor="middle">Automation</text>
+
+    <!-- Star & Fork info -->
+    <text x="516" y="127" font-size="11" fill="#E2E8F0" text-anchor="end">&#9733; 1 &#160;&#160;&#9881; main</text>
+  </g>
+
+  <!-- CARD 2: MCP-Server-Scanner -->
+  <g transform="translate(608, 84)">
+    <rect width="536" height="148" rx="12" fill="url(#pCardGrad)" stroke="url(#pBorderPurple)" stroke-width="1.5"/>
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#A78BFA" stroke-width="2"/>
+    <path d="M 520 0 L 536 0 L 536 16" fill="none" stroke="#A78BFA" stroke-width="2"/>
+    <rect x="20" y="20" width="32" height="32" rx="8" fill="rgba(167,139,250,0.12)" stroke="#A78BFA" stroke-width="1"/>
+    <path d="M 28 32 L 36 40 L 44 28" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="36" font-size="15" font-weight="700" fill="#F8FAFC">MCP-Server-Scanner</text>
+    <rect x="420" y="20" width="96" height="20" rx="10" fill="rgba(34,211,238,0.15)" stroke="#22D3EE" stroke-width="1"/>
+    <text x="468" y="34" font-size="10" font-weight="700" fill="#22D3EE" text-anchor="middle">INSPECTOR</text>
+    
+    <text x="20" y="74" font-size="12" fill="#94A3B8">Security Scanner &amp; Runtime Protocol Inspector</text>
+    <text x="20" y="92" font-size="11" fill="#64748B">Model Context Protocol diagnostics, vulnerability audits &amp; probes</text>
+    
+    <rect x="20" y="112" width="85" height="22" rx="6" fill="#1E293B"/>
+    <text x="62" y="127" font-size="10" font-weight="600" fill="#FBBF24" text-anchor="middle">JavaScript</text>
+    <rect x="113" y="112" width="70" height="22" rx="6" fill="#1E293B"/>
+    <text x="148" y="127" font-size="10" font-weight="600" fill="#22D3EE" text-anchor="middle">Security</text>
+    <rect x="191" y="112" width="95" height="22" rx="6" fill="#1E293B"/>
+    <text x="238" y="127" font-size="10" font-weight="600" fill="#C084FC" text-anchor="middle">MCP Protocol</text>
+
+    <text x="516" y="127" font-size="11" fill="#E2E8F0" text-anchor="end">&#9733; 1 &#160;&#160;&#9881; main</text>
+  </g>
+
+  <!-- CARD 3: Bomb-Frontend -->
+  <g transform="translate(36, 248)">
+    <rect width="536" height="148" rx="12" fill="url(#pCardGrad)" stroke="url(#pBorderPurple)" stroke-width="1.5"/>
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#A78BFA" stroke-width="2"/>
+    <path d="M 520 0 L 536 0 L 536 16" fill="none" stroke="#A78BFA" stroke-width="2"/>
+    <rect x="20" y="20" width="32" height="32" rx="8" fill="rgba(244,63,94,0.12)" stroke="#F43F5E" stroke-width="1"/>
+    <circle cx="36" cy="36" r="6" fill="none" stroke="#F43F5E" stroke-width="2"/>
+    <text x="64" y="36" font-size="15" font-weight="700" fill="#F8FAFC">Bomb-Frontend</text>
+    <rect x="420" y="20" width="96" height="20" rx="10" fill="rgba(244,63,94,0.15)" stroke="#F43F5E" stroke-width="1"/>
+    <text x="468" y="34" font-size="10" font-weight="700" fill="#F43F5E" text-anchor="middle">UI / CLIENT</text>
+    
+    <text x="20" y="74" font-size="12" fill="#94A3B8">High-Performance Interactive Frontend Suite</text>
+    <text x="20" y="92" font-size="11" fill="#64748B">Dynamic client-side experiences, rich animations &amp; responsive UI</text>
+    
+    <rect x="20" y="112" width="85" height="22" rx="6" fill="#1E293B"/>
+    <text x="62" y="127" font-size="10" font-weight="600" fill="#FBBF24" text-anchor="middle">JavaScript</text>
+    <rect x="113" y="112" width="70" height="22" rx="6" fill="#1E293B"/>
+    <text x="148" y="127" font-size="10" font-weight="600" fill="#F43F5E" text-anchor="middle">UI / UX</text>
+    <rect x="191" y="112" width="85" height="22" rx="6" fill="#1E293B"/>
+    <text x="233" y="127" font-size="10" font-weight="600" fill="#38BDF8" text-anchor="middle">CSS3 / DOM</text>
+
+    <text x="516" y="127" font-size="11" fill="#E2E8F0" text-anchor="end">&#9733; 1 &#160;&#160;&#9881; main</text>
+  </g>
+
+  <!-- CARD 4: PortFolio-Yadnesh -->
+  <g transform="translate(608, 248)">
+    <rect width="536" height="148" rx="12" fill="url(#pCardGrad)" stroke="url(#pBorderCyan)" stroke-width="1.5"/>
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#22D3EE" stroke-width="2"/>
+    <path d="M 520 0 L 536 0 L 536 16" fill="none" stroke="#22D3EE" stroke-width="2"/>
+    <rect x="20" y="20" width="32" height="32" rx="8" fill="rgba(34,211,238,0.12)" stroke="#22D3EE" stroke-width="1"/>
+    <polygon points="36,26 44,40 28,40" fill="none" stroke="#22D3EE" stroke-width="2"/>
+    <text x="64" y="36" font-size="15" font-weight="700" fill="#F8FAFC">PortFolio-Yadnesh</text>
+    <rect x="420" y="20" width="96" height="20" rx="10" fill="rgba(167,139,250,0.15)" stroke="#A78BFA" stroke-width="1"/>
+    <text x="468" y="34" font-size="10" font-weight="700" fill="#A78BFA" text-anchor="middle">SHOWCASE</text>
+    
+    <text x="20" y="74" font-size="12" fill="#94A3B8">Personal Developer Engineering Portfolio</text>
+    <text x="20" y="92" font-size="11" fill="#64748B">Deployed live on Netlify with interactive projects &amp; resume</text>
+    
+    <rect x="20" y="112" width="70" height="22" rx="6" fill="#1E293B"/>
+    <text x="55" y="127" font-size="10" font-weight="600" fill="#22D3EE" text-anchor="middle">HTML5</text>
+    <rect x="98" y="112" width="70" height="22" rx="6" fill="#1E293B"/>
+    <text x="133" y="127" font-size="10" font-weight="600" fill="#A78BFA" text-anchor="middle">CSS3</text>
+    <rect x="176" y="112" width="70" height="22" rx="6" fill="#1E293B"/>
+    <text x="211" y="127" font-size="10" font-weight="600" fill="#FBBF24" text-anchor="middle">JS</text>
+    <rect x="254" y="112" width="80" height="22" rx="6" fill="#1E293B"/>
+    <text x="294" y="127" font-size="10" font-weight="600" fill="#10B981" text-anchor="middle">Netlify</text>
+
+    <text x="516" y="127" font-size="11" fill="#E2E8F0" text-anchor="end">&#9733; 0 &#160;&#160;&#9881; main</text>
+  </g>
+
+  <!-- Outer Animated Border -->
+  <rect x="2" y="2" width="1176" height="426" rx="16" fill="none" stroke="url(#accentLine)" stroke-width="2" opacity="0.65"/>
+</svg>
